@@ -66,5 +66,5 @@ test('post order with correct data should receive code 400', async ({ request })
   // Log the response status and body
   console.log('response status:', response.status())
   console.log('response body:', await response.text())
-  expect(response.status()).toBe(StatusCodes.BAD_REQUEST)
+  expect(response.status()).toBe(400)
 })

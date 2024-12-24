@@ -6,7 +6,7 @@ on:
       [main, develop]
   pull_request:
     branches:
-      - main
+      - api-login
 
 jobs:
   format-lint-test:
